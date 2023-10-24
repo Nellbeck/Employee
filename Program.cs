@@ -57,11 +57,12 @@ namespace Employee
             }
 
             Console.WriteLine("-------------------------");
-
+            
             var employeeArray = employeeStack.ToArray();
             if (employeeStack.Contains(employeeArray[2]))
             {
                 Console.WriteLine($"Employee ID {employeeArray[2].Id} found in stack.");
+                
             }
 
             Console.WriteLine("-------------------------");
