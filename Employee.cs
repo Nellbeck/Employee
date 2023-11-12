@@ -23,6 +23,6 @@ namespace Employee
         public void GetInfo() 
         {
             Console.WriteLine($"{Id} - {Name} - {Gender} - {Salary}");
-        }
+        } // just a method to write out the info.
     }
 }
